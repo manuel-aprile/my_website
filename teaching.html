@@ -42,33 +42,60 @@ FFAC1C
  
 			 
 				
-<font size=5><br><br>  I have taught <font color=#4dff4d>Discrete Mathematics</font> (mostly graph theory) during Spring 2021 and Spring 2022.  <br>The course is given in Italian. <br>
+<font size=5><br><br>  I have been teaching <font color=#4dff4d>Discrete Mathematics</font> (mostly graph theory) since 2021.  <br>The course is given in Italian. <br>
 
 <br>
- Please check the <a href="https://elearning.unipd.it/math/course/view.php?id=688
+ Please check the <a href="https://stem.elearning.unipd.it/course/view.php?id=8978
 ">Moodle page</a>  of the course for more information.  <br>
 	
-<br><br><br>
-If you are interested in doing a <font color=#A9F5F2> (bachelor or master) thesis </font> under my supervision, please send me an email. Here are some possible research topics:
 <br>
 <br>
+<font size=6 color=#4dff4d> Thesis </font><br>
+<br><br>
+If you are interested in doing a <font color=#A9F5F2> (bachelor or master) thesis </font> under my supervision, please send me an email.
+<br>
+
+ Here are some possible research topics:
+<br>
+<br><p align="justify">
 
 <ul style="margin-left: 100px; margin-right: 60px; line-height:27px; align="justify">
-<font size=6 color=#FFAC1C> Graph theory </font>
+<font size=6 color=#FFAC1C> Graph coloring and variations </font><br>
+<br> <p align="justify"> In the classical graph coloring problem, the goal is to assign colors to the vertices of a graph so that no two adjacent vertices share the same color, using the minimum number of colors. This problem has numerous applications, from scheduling and frequency assignment to sudoku puzzles.<br>
+A thesis on this topic can have an algorithmic / computational focus: study some of the fastest algorithms and heuristics to color graphs, design your own variations, and test them. These algorithms include Integer Programming approaches and evolutionary strategies such as genetic algorithms.<br><br>
+
+Another possible direction for the thesis involves choosing one of the many variations of graph coloring and studying what is known on them: for example, in non-repetitive coloring sequences of colors along any path must avoid repetition (e.g. there can be no red-blue-red-blue path). A famous result by Thue states that every path is non-repetitively 3-colorable, i.e. one can write arbitrary long non-repetitive words using only 3 letters. </p>
 <br>
-<li>  <font size=5 color=#A9F5F2> Graph coloring and the four colors theorem. </font> This is probably the most popular theorem in discrete mathematics, as it is the first major theorem that was proven with massive help of computers. After the first proof by Appel and Haken in 1976, a simpler proof (still using computers) was given in 1996 by Robertson, Sanders, Seymour and Thomas. Please see <a href="https://thomas.math.gatech.edu/FC/fourcolor.html
-">here</a> for an introduction on this proof. The thesis could explore the topic both from the mathematical and the historical point of view. There are many connections including <a href="https://web.math.princeton.edu/~pds/papers/hadwiger/paper.pdf"> Hadwiger's Conjecture</a>, <a href="https://en.wikipedia.org/wiki/Snark_(graph_theory)"> Snarks and Tutte's Conjecture</a>, and <a href="https://en.wikipedia.org/wiki/Chromatic_polynomial  "> chromatic polynomials</a>.  </li>
 <br>
 
-<font size=6 color=#FFAC1C> Combinatorial optimization: algorithms and polyhedra </font>
+<font size=6 color=#FFAC1C> Maximum weight matchings: algorithms and polyhedra </font>
+<br><br>
+<p align="justify">
+In his celebrated paper "Paths, Trees and Flowers", Jack Edmonds gave the first polynomial-time algorithm to find a maximum matching in a graph and defined the concept itself of polynomial-time algorithm (see <a href="https://www.math.uni-bielefeld.de/documenta/vol-ismp/34_pulleyblank-william.pdf">here</a> for a summary). Afterwards, he solved the general weighted matching problem by studying what is now called the Edmonds' matching polytope, giving birth to polyhedral combinatorics. This is a great topic for a thesis at the interface between discrete mathematics, polyhedral optimization and theoretical computer science.  </p>
 <br>
-<li> <font size=5 color=#A9F5F2> Maximum weight matchings </font>
-In his celebrated paper "Paths, Trees and Flowers", Jack Edmonds gave the first polynomial-time algorithm to find a maximum matching in a graph and defined the concept itself of polynomial-time algorithm (see <a href="https://www.math.uni-bielefeld.de/documenta/vol-ismp/34_pulleyblank-william.pdf">here</a> for a summary). Afterwards, he solved the general weighted matching problem by studying what is now called the Edmonds' matching polytope, giving birth to polyhedral combinatorics. This is a great topic for a thesis at the interface between discrete mathematics, polyhedral optimization and theoretical computer science.  </li>
 <br>
 
-<font size=6 color=#FFAC1C> Other discrete maths </font>
+
+<font size=6 color=#FFAC1C>Matroid Optimization and Matroid Intersection</font>  <br><br>
+
+<p align="justify">
+Matroids are mathematical structures that generalize the concept of independence from linear algebra to broader settings. Matroid optimization requires finding a maximum weight independent set within a matroid and can be solved via a simple greedy algorithm. Matroid intersection, on the other hand, involves finding the largest (or maximum weight) set that is independent in two matroids simultaneously. The algorithm to solve this problem is more involved: the thesis could focus on describing this algorithm and proving its correctness.
 <br>
-<li>  <font size=5 color=#A9F5F2> Graeco-Latin squares </font> A latin square is an n × n matrix filled with n different symbols, each occurring exactly once in each row and exactly once in each column. Euler introduced this concept in 1782 in order to solve the 36 Officers problem, which can be formulated as finding two orthogonal latin squares (also called <a href="https://en.wikipedia.org/wiki/Mutually_orthogonal_Latin_squares">Graeco-Latin square</a> ) of order 6. Euler failed, as no such squares of order 6 exist. However, Graeco-Latin squares of prime order can be constructed from finite projective planes, and a large literature now exists on the topic. The thesis could focus on sets of mutually orthogonal latin squares, computational aspects, generalizations like <a href="http://educ.jmu.edu/~taalmala/sudoku_seriously_galley.pdf">sudoku</a> or the relationship with graph coloring. </li>
+
+ Another direction comes from polyhedral combinatorics: to each matroid we can associate a polytope, whose properties offer new insights and algorithmic approaches. </p>  
+
+<br>
+<br>
+
+
+<font size=6 color=#FFAC1C>The Probabilistic Method</font> <br><br>
+
+ <p align="justify">
+ The probabilistic method is a powerful tool in combinatorics: it proves the existence of a certain combinatorial object (such as a coloring of a graph with few colors) by showing that a randomly chosen object has the desired properties with positive probability. This method is usually non-constructive: it proves that an object exists but it doesn't give a practical method to find it. There has been much work on turning these existence results into efficient randomized algorithms, one succesful example being the constructive version of the Lovász Local Lemma by Moser and Tardos.<br>
+
+A thesis on this topic could explore the algorithmic aspects of the probabilistic method, as well as its applications to graph coloring and combinatorics. </p>  
+
+
 <br>
 </ul>
 
